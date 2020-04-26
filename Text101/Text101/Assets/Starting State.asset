@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd7b5744bd83749969a8218ca7beea49, type: 3}
+  m_Name: Starting State
+  m_EditorClassIdentifier: 
+  storyText: "Mert walked into the room slowly. The room was dark and smells bad.
+    He reached his backpack and tried to find his flashlight but he realized that
+    he forgot it in the previous room. He turned back to grab the door knob but realizes
+    that the door is locked behind him. \n\nWhat should he do?\n1) Take his lighter
+    out and light it to use as a light souce.\n2) Try to break the door."
+  nextStates:
+  - {fileID: 11400000, guid: ccf7d9fd4682445a8ad0e8d0781f67c4, type: 2}
+  - {fileID: 11400000, guid: 621312fbcde5f4a53b19df25f0775bb2, type: 2}
